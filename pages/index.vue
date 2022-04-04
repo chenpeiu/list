@@ -1,5 +1,5 @@
 <template>
-  <div class="todolist">
+  <div class="todolist absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
     <div class="wrap flex-col bg-amber-100 text-slate-600 p-5 rounded-md shadow-md">
       <div class="upbar pb-5 flex">
         <label for="todo" class="text-center px-2 pl-0 text-cyan-600">待辦清單</label>
@@ -26,13 +26,7 @@
     </div>
   </div>
 </template>
-<style lang="sass">
-  .todolist
-    position: absolute
-    left: 50%
-    top: 50%
-    transform: translate(-50%,-50%)
-</style>
+
 <script>
 export default {
   data(){
